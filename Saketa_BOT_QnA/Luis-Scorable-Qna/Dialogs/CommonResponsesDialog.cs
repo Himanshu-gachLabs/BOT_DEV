@@ -26,8 +26,8 @@ namespace Scorable.Dialogs
                 Title = "Help",
                 Text = "Need assisstance?",
                 Buttons = new List<CardAction> {
-                    new CardAction(ActionTypes.OpenUrl, "Contact Us", value: "https://stackoverflow.com/questions/tagged/botframework"),
-                    new CardAction(ActionTypes.OpenUrl, "FAQ", value: "https://docs.microsoft.com/bot-framework")
+                    new CardAction(ActionTypes.OpenUrl, "Contact Us", value: "https://saketa.com/contact-us/"),
+                    new CardAction(ActionTypes.OpenUrl, "FAQ", value: "https://saketa.com/faqs/")
                 }
             };
             var reply = activity.CreateReply();
